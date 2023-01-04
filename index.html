@@ -10,7 +10,20 @@
   </head>
   <body>
     <div class="container">
-      <div class="sorting_algorithm">This Is Currently Running Bubble Sort</div>
+      <div class="sorting_algorithm">
+        <p>
+          <span id="algorithm_title">Select a Sorting Algorithm</span>
+        </p>
+
+        <select id="algorithm">
+          <option value="bubble">Bubble Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="merge">Merge Sort</option>
+        </select>
+
+        <p><span id="timer">Previous Sort Time: 00.00 Seconds</span></p>
+      </div>
+
       <div class="array_chunks" id="array_chunks"></div>
 
       <div class="buttons_container">
